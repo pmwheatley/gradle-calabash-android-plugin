@@ -54,7 +54,7 @@ class CalabashTestPlugin implements Plugin<Project> {
             project.logger.debug "${project.getPath()}"
             project.logger.debug "==========================="
 
-            def outFile = new File(project.file("build/reports/calabash/${variationName}"), "report.html")
+            def outFile = new File(project.file("build/reports/calabash/${variationName}"), "report.json")
             def outFileDir = outFile.parentFile
 
 
@@ -117,7 +117,7 @@ class CalabashTestPlugin implements Plugin<Project> {
         }
 
         commandArguments.add("--format")
-        commandArguments.add("html")
+        commandArguments.add("json")
         commandArguments.add("--out")
         commandArguments.add(outFile.canonicalPath)
         commandArguments.add("-v")
