@@ -1,4 +1,4 @@
-package org.notlocalhost.gradle
+package org.pmwheatley.gradle
 
 import org.fest.assertions.api.Assertions
 import org.gradle.api.Project

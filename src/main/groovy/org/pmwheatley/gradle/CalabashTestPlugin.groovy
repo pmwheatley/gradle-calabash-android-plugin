@@ -1,4 +1,4 @@
-package org.notlocalhost.gradle;
+package org.pmwheatley.gradle;
 
 import com.android.build.gradle.AppPlugin
 import com.android.build.gradle.LibraryPlugin

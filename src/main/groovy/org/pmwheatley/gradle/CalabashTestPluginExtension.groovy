@@ -1,4 +1,4 @@
-package org.notlocalhost.gradle
+package org.pmwheatley.gradle
 
 /**
  * Created by zan on 25/04/2014.
